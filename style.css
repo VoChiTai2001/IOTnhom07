@@ -1,0 +1,189 @@
+html {
+  font-size: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* margin top bottom 15px*/
+.mar-top-bot15 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+
+/* copy tu slide */
+body {
+  font: 100%/125% “Times New Roman”, sans-serif;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#wrapper {
+  margin: 10px;
+  padding: 0px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+#header {
+  background-color: lightgrey;
+  border-radius: 8px;
+  height: 120px;
+  margin-bottom: 25px;
+}
+
+#header p {
+  font-family: arial;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 2rem;
+  line-height: 120px;
+  text-align: center;
+}
+
+#footer {
+  clear: both;
+  text-align: center;
+  margin-top: 25px;
+  background-color: lightgrey;
+  border-radius: 6px;
+}
+
+#footer p {
+  font-size: 10pt;
+  font-style: italic;
+  color: blue;
+  padding: 3px;
+}
+
+#left {
+  float: left;
+  width: 25%;
+}
+
+#left ul {
+  background-color: lightskyblue;
+  width: 80%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+  border: 1px solid blueviolet;
+  border-radius: 10px;
+}
+
+#left li a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  display: block;
+  text-decoration: none;
+}
+
+#left li a:hover:not(.active) {
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+}
+
+/* #left li a.active {
+  background-color: blue;
+  color: white;
+} */
+
+.nav-active {
+  background-color: rgba(13, 82, 185, 0.749);
+  color: #ddd;
+  border-radius: 8px;
+}
+
+#right {
+  float: right;
+  width: 75%;
+}
+
+#right .right-title {
+  font-size: 25px;
+  text-align: center;
+  color: #17328a;
+  padding: 1px 0px;
+}
+
+#right p {
+  margin-right: 0px;
+  margin-bottom: 15px;
+}
+
+#right img {
+  width: 480px;
+  height: 360px;
+  margin: auto;
+  display: block;
+}
+
+#right table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 50px;
+}
+#right table td,
+#right table th {
+  border: 2px solid grey;
+  padding: 8px;
+}
+#right table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#right table tr:hover {
+  background-color: #ddd;
+}
+
+#right table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  font-size: 19px;
+  background-color: #04aa6d;
+  color: white;
+}
+
+#right table td a {
+  text-decoration: none;
+  color: blue;
+  font-style: italic;
+}
+.box {
+  float: left;
+  width: 140;
+  height: 120px;
+  border-radius: 8px;
+  background-color: lightblue;
+}
+
+.box img {
+  width: 120px;
+  height: 120px;
+  margin: 0px 20px;
+  z-index: 999;
+  cursor: progress;
+}

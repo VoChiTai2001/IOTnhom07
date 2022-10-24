@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <script src="./my-js.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <title>Layout practice</title>
 </head>
 <h1 class="asdf"></h1>
@@ -26,17 +25,18 @@
         </div>
         <div id="left">
             <ul>
-                <li><a href="./index.html"><i class="fa fa-home" aria-hidden="true"></i>Trang chủ</a></li>
-                <li><a href="./Chuandaura.html">Chuẩn đầu ra</a></li>
-                <li><a href="./PPGDvaNVSV.html">PPGD và NVSV</a></li>
-                <li><a href="./Danhgia.html">Đánh giá</a></li>
-                <li><a href="./TKTL.html">TLTK</a></li>
+                <li><a class="nav-active" href="./index.html"><i class="fa fa-home" aria-hidden="true"></i> Trang
+                        chủ</a></li>
+                <li><a href="./Chuandaura.html"><i class="fas fa-graduation-cap"></i> Chuẩn đầu ra</a></li>
+                <li><a href="./PPGDvaNVSV.html"><i class="fas fa-chalkboard-teacher"></i> PPGD và NVSV</a></li>
+                <li><a href="./Danhgia.html"><i class="far fa-eye"></i> Đánh giá</a></li>
+                <li><a href="./TKTL.html"><i class="fas fa-folder"></i> TLTK</a></li>
             </ul>
             <h3 class="mar-top-bot15 font-weight-bold">Liên kết</h3>
             <ul style="background-color: lightblue">
                 <li><a href="https://www.ctu.edu.vn/">CTU</a></li>
                 <li><a href="https://cet.ctu.edu.vn/">Khoa CN</a></li>
-                <li><a href="https://w3schools.com/css">W3School</a></li>
+                <li><a href="https://w3schools.com">W3School</a></li>
                 <li><a href="https://htql.ctu.edu.vn/htql/login.php">HTQL CTU</a></li>
             </ul>
         </div>
@@ -60,7 +60,7 @@
                     <th>CĐR CTĐT</th>
                 </tr>
                 <tr>
-                    <td>4.1</td>
+                    <td class="text-align-center">4.1</td>
                     <td>Nắm vững nguyên lý cơ bản về IoT, nguyên lý thiết kế, kết nối và truyền dữ liệu trong các ứng
                         dụng IoT.
                     </td>
@@ -68,12 +68,12 @@
                 </tr>
 
                 <tr>
-                    <td>4.2</td>
+                    <td class="text-align-center">4.2</td>
                     <td>Thiết kế tốt bộ điều khiển IoT, lập trình nhúng và lập trình Web cơ bản ứng dụng IoT.</td>
                     <td>2.2.1a<br>2.2.1b</td>
                 </tr>
                 <tr>
-                    <td>4.3</td>
+                    <td class="text-align-center">4.3</td>
                     <td>Làm việc nhóm để giải quyết vấn đề.</td>
                     <td>2.2.2a</td>
                 </tr>
@@ -84,5 +84,7 @@
         </div>
     </div>
 
+    <script src="./my-js.js"></script>
 </body>
+
 </html>
