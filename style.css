@@ -100,7 +100,7 @@ a {
 }
 
 #left li a:hover:not(.active) {
-  background-color: black;
+  background-color: #122d87;
   color: white;
   border-radius: 8px;
 }
